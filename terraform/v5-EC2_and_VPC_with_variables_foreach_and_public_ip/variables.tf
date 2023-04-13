@@ -1,5 +1,5 @@
 variable "ami" {
-    default = "ami-0b0dcb5067f052a63"  
+    default = "ami-09ec3af8c9f2258df"  
 }
 
 variable "associate_ip" {
@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "key-name" {
-    default = "prd01"
+    default = "rpt-03-key"
 }
 
 variable "vpc_cidr" {
