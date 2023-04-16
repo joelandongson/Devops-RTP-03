@@ -7,7 +7,7 @@ variable "instance_type" {
 }
 
 variable "key-name" {
-    default = "rpt-03-key"
+    default = "mac-rtp-03"
 }
 
 variable "vpc_cidr" {
