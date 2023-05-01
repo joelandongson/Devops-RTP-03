@@ -1,5 +1,5 @@
 variable "ami" {
-    default = "ami-02396cdd13e9a1257"  
+    default = "ami-03c7d01cf4dedc891"  
 }
 
 variable "associate_ip" {
