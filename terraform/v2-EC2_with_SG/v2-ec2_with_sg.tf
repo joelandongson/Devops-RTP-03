@@ -6,7 +6,7 @@ provider "aws" {
 resource "aws_instance" "ec2" {
     ami = "ami-03c7d01cf4dedc891"
     instance_type = "t2.micro"
-    key_name = "mac-rtp-03"
+    key_name = "rtp-03"
     security_groups = ["rtp03-sg"]
 }
 
