@@ -1,5 +1,5 @@
 variable "ami" {
-    default = "ami-02396cdd13e9a1257"  
+    default = "ami-03c7d01cf4dedc891"  
 }
 
 variable "instance_type" {
@@ -7,7 +7,7 @@ variable "instance_type" {
 }
 
 variable "key-name" {
-    default = "mac-rtp-03"
+    default = "rtp-03"
 }
 
 variable "vpc_cidr" {
